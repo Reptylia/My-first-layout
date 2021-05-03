@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    height: 100%;
+    background: linear-gradient(to bottom, #1d1d30 20%, white 30%);
+    overflow: hidden;
+}
+
+
+/*Шапка*/
+.home-menu {
+    float: right;
+    margin-right: 20px;
+}
+
+.home-menu li {
+    float: left;
+    margin: 50px 0px 0px 0px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.logo {
+    height: 56px;
+    width: 238px;
+    background: url(img/Logo.png);
+}
+
+.home-page {
+    padding: 5px;
+    margin: 0px 20px 0px 0px;
+    height: 30px;
+    width: auto;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    line-height: 52px;
+
+}
+
+.home-page:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+.header {
+    width: 1000px;
+    height: 145px;
+    margin: 0px auto 0px;
+    
+}
+
+.header-left {
+    margin-top: 35px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+/*Контент*/
+.content {
+    width: 1000px;
+    height: 800px;
+    background: #ccc;
+    margin: 0px auto 0px;
+}
+
+
+/*Подвал*/
+.footer {
+   
+    
+    width: 1000px;
+    /*    width: 100%;*/
+    height: 290px;
+    /*    bottom: 0;*/
+    margin: 0px auto 0px;
+    /*    position: absolute;*/
+}
+
+.footer-background {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1366px;
+  background: radial-gradient(at top,#8e8ead,#1d1d30); 
+    
+
+}
+.footer-logo {
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+
+}
+
+.footer-text {
+    padding-top: 23px;
+    padding-left: 37px;
+
+    margin-left: 17px;
+    margin-right: 130px;
+    color: white;
+    overflow: hidden;
+}
+
+.footer-bot-text {
+    margin-left: 40px;
+    
+    padding-top: 0px;
+    float: right;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.email {
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    border: 5px solid #242439;
+    border-radius: 5px;
+    background-color: #242439;
+    color: white;
+}
+
+.subs {
+    padding: 2px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline;
+}
+
+
+
+.subs-3 {}
+
+.footer-tex2 {
+    text-align: center;
+    color: white;
+
+    
+}
+
+.footer-h3 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 38px;
+    font-size: 25px;
+    line-height: 23px;
+    color: white;
+}
+
+.footer-h2 {
+    float: right;
+    margin-top: 15px;
+    margin-right: 305px;
+    font-size: 25px;
+    line-height: 23px;
+    color: white;
+}
+
+.footer-h-size {
+    height: 50px;
+}
+
+.footer-div-left {
+    float: left;
+    height: 140px;
+    width: 390px;
+/*    background-color: blue;*/
+}
+
+.footer-div-right {
+    float: right;
+    width: 500px;
+    height: 140px;
+    
+
+}
+
+.footer-social {
+    margin-top: 10px;
+    margin-left: 3px;
+    
+}
+.footer-social-1 {
+   margin-left: 35px; 
+}
+.footer-form {
+    height: 80px;
+    width: 390px;
+/*    background-color: gold;*/
+    
+    
+}
+.footer-inp1 {
+    margin-bottom: 5px;
+    
+}
+.footer-inp2 {
+    border: 5px solid #242439;
+    border-radius: 5px;
+    background: #242439;
+    color: white;
+    
+}
+.footer-ul {
+    margin-left: 65px;
+    list-style-type: none;
+    float: left;
+}
+textarea {
+    border: 5px solid #242439 ;
+    border-radius: 5px;
+    margin-right: 15px;
+    float: right;
+    background: #242439;
+    color: white;
+}
+
+.subs-2 {
+    padding: 2px;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/*
+html,body {
+    height: 100%;
+}
+*/
+
+/*
+#wrap {
+    min-height: 100%;
+    position: relative;
+}
+*/
+/*Контент анимация*/
+#cube {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
